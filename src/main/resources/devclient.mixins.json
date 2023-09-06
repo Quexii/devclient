@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gay.shoroa.devclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "lwjgl.MixinNanoVGGLConfig"
+  ],
+  "client": [
+    "client.MixinGuiMainMenu",
+    "client.MixinMinecraft"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
